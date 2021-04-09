@@ -1,0 +1,48 @@
+body{
+    font-family: 'Indie Flower', cursive;
+}
+
+
+.nav-bar{
+    text-align: center;
+    background-image: url(/image/section1.jpg);
+    height: 400px;
+    color: white;
+}
+
+a{
+    font-size: 40px;
+    padding: 5% 2% 0 2%;
+    margin-top: 3%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+li{
+    margin-bottom: 50%;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+
+.item{
+    background-color: rgb(243, 134, 84);
+}
+
+footer{
+    font-size: 30px;
+    text-align: center;
+}
+
+@media (min-width:400px){
+    a{
+        font-size: 20px;
+        padding: 5% 2% 0 2%;
+        margin-top: 1.5%;
+    }
+}
