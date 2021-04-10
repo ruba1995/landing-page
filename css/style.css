@@ -14,9 +14,11 @@ padding-top: 5%;
 }
 
 #renderList{
-    background-image: url(/image/section1.jpg);
+    background-color: rgb(223, 138, 138);
     height: 300px;
 }
+
+
 
 ul li a{
     color: white;
@@ -87,7 +89,7 @@ textarea{
    margin-left: 18%;
 }
 
-img{
+.image{
     width:320px ;
     border-radius: 50%;
     height: 330px;
@@ -124,9 +126,11 @@ footer{
     }
 
     #renderList{
-        background-image: url(/image/section1.jpg);
+        background-color: rgb(223, 138, 138);
         height: 220px;
     }
+
+    
 
     #section-1{
         display:flex;
@@ -159,7 +163,7 @@ footer{
        margin-top: 5%;
     }
 
-    img{
+    .image{
         width:220px ;
         border-radius: 50%;
         height: 230px;
