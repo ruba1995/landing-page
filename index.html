@@ -1,29 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LANDING PAGE</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../landing-page/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div class="nav-bar">
-        <a data-link="About us" class="scroll">about us</a>
-        <a data-link="Conntact us" class="scroll">Conntact us</a>
-        <a data-link="Our products"  class="scroll">Our products</a>
-        <a data-link="The end" class="scroll"> the end</a>
+
+    <header id="renderList">
+
+    </header>
+
+
+
+    <div id="section1">
+        <h1>section1</h1>
+        <div id="section-1">
+            <p><strong>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum."
+                </strong>
+            </p>
+            <img src="/image/group-img.jpg" id="section1-image">
+        </div>
+    </div>
+
+
+    <div id="section2">
+        <h1>section2</h1>
+        <div id="section-2">
+            <p id="section2-p"><strong>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                    qui
+                    officia deserunt mollit anim id est laborum."
+                </strong>
+            </p>
+
+            <div id="section2-form">
+                <form>
+                    <label>name :</label>
+                    <br>
+                    <input type="text" id="form-name">
+                    <br>
+                    <br>
+                    <label>e-mail :</label>
+                    <br>
+                    <input type="email" id="form-email">
+                    <br>
+                    <br>
+                    <label>message :</label>
+                    <br>
+                    <textarea></textarea>
+                    <br>
+                    <button onclick=formFunction() id="form-button">submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="section3">
+        <h1>section3</h1>
+        <div id="section-3">
+            <img src="/image/flower1.jpg" class="image">
+            <img src="/image/book1.jpg" class="image">
+            <img src="/image/clothes.png" class="image">
+
+        </div>
+    </div>
+
+    <div id="section4">
+        <h1>section4</h1>
+        <p><strong>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quas laudantium nisi earum
+                fugiat quaerat explicabo facere voluptas voluptatum porro id dignissimos enim, nemo fuga
+                nesciunt, dolor facilis animi ipsa!
+            </strong></p>
 
     </div>
-    <header id="renderList">
-        
-    </header>
+
+
+
+
+
 <hr>
-    <footer> <strong>done by : ruba othman</strong> </footer>
+<footer><h2>Done by : Ruba Othman</h2></footer>
 
-
-    <SCript src="../landing-page/js/app.js"></SCript>
+    <SCript src="/js/app.js"></SCript>
 </body>
+
 </html>
