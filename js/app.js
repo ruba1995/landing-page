@@ -1,39 +1,49 @@
 
 
 //array of the component of the list 
-var theHeader = ["section1", "section2", "section3", "section4"];
-
-
-
+let theHeader = ["section1", "section2", "section3", "section4"];
+let sections =document.getElementsByTagName('span')
+let aLinkDataLinke=document.getElementsByTagName('li')
+let ul = document.createElement('ul');
 // header list 
 //create the ul first
-let ul = document.createElement('ul');
+
 ul.setAttribute('id', 'proList');// give it id(prolist)
 document.getElementById('renderList').appendChild(ul);
-theHeader.forEach(rendertheHeader);
 //create the li and append them to the ul
-function rendertheHeader(element) {
-    let li = document.createElement('li');
-    li.setAttribute('class', 'section');// give it class name (item)
+    for(span of sections){
+        let li = document.createElement('li');
+        li.setAttribute('class', 'section');// give it class name (item)
+        ul.appendChild(li);
+ 
+        let aLink = document.createElement('a')
+    for(li of aLinkDataLinke){
+        li.appendChild(aLink)
+        aLink.setAttribute('data-link',aLinkDataLinke)
+        aLink.setAttribute('class','scroll')
+    }
+    
+    for (let i=-1; i <=theHeader.length; ++i) {
 
-    ul.appendChild(li);
-    // li.innerHTML = li.innerHTML + element;
+        li.appendChild(aLink)
+        aLink.setAttribute('data-link',theHeader[i])
+        aLink.setAttribute('class','scroll')
 
-    // let aLink=document.createElement('a')
+    }
+     aLink.innerHTML = aLink.innerHTML +aLinkDataLinke;
+}
+   // let aLink=document.createElement('a')
     // li.appendChild(aLink)
     //    aLink.innerHTML =aLink.innerHTML + element;
-    let aLink = document.createElement('a')
-    for (let i = 0; i <= theHeader.length; i++) {
-        // li.setAttribute('id',element);
+    
+
+    //     // li.setAttribute('id',element);
        
-        li.appendChild(aLink)
-        aLink.setAttribute('data-link',element)
-        aLink.setAttribute('class','scroll')
+      
        
-    }
- 
-    aLink.innerHTML = aLink.innerHTML + element;
-}
+   
+
+
 
 
 
