@@ -1,9 +1,17 @@
 # landing-page
 
 
-this page has been created using DOM manipulating 
-i have cerate unorder list
-and give it an id 
-then each li in the list toke it's on id using for lop 
+this page has been created using **DOM manipulating** 
 
-after that the scrolling function that based on eventlistener
+in this landing page u will be able to move towerd the wanted section
+by clicking on it's name in the navigation bar
+
+## languages 
+
+- HTML 
+- CSS 
+  * FLEX BOX
+  * GRID 
+  * MEDIA QUEIRY 
+- JS 
+   
